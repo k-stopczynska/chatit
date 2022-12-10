@@ -5,3 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  margin: auto;
+  width: 90vw;
+  height: 50vh;
+}
+
+.input__login {
+  padding: 0.5em 1em;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__login {
+  padding: 0.5em 1em;
+}
